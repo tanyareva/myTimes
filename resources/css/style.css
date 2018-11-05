@@ -8,8 +8,8 @@
   border-bottom: 1px solid black;
   position: fixed;
   width: 100%;
-    height: auto;
-    background-color: white;
+  height: auto;
+  background-color: white;
 }
 .logo {
   flex-grow: 1;
@@ -95,8 +95,9 @@ body {
 }
 .titel2 {
   font-size: 20px;
-  margin: 20px 0;
+  margin: 60px 0;
   font-weight: bold;
+  margin-bottom: 30px;
 }
 .text2 {
   margin: 0 0 20px 0;
@@ -110,15 +111,12 @@ body {
   color: white;
   justify-content: center;
   display: flex;
+  margin: 100px 0;
 }
 .cell2 {
   margin-right: 30px;
 }
-.titel3 {
-  font-size: 20px;
-  margin: 20px 0;
-  font-weight: bold;
-}
+
 .text4 {
   margin: 0 0 20px 0;
 }
@@ -131,6 +129,7 @@ body {
   color: white;
   justify-content: center;
   display: flex;
+  margin: 100px 0;
 }
 .cell3 {
 }
@@ -140,11 +139,7 @@ body {
 .columnmedium {
   width: 300px;
 }
-.titel4 {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 20px 0;
-}
+
 .text7 {
   margin-bottom: 20px;
 }
@@ -156,8 +151,7 @@ body {
   font-size: 30px;
   color: white;
   text-align: center;
-}
-.titel5{
+  margin: 30px 0 0 0;
 }
 .text9 {
   margin: 20px 0;
@@ -171,4 +165,32 @@ body {
   font-size: 20px;
   font-weight: bold;
   margin: 20px 0;
+}
+.bite {
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 12px 20px;
+  border-bottom: 1px solid black;
+}
+.footer {
+  align-items: center;
+  flex-direction: column;
+  height: 325px;
+  justify-content: center;
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+}
+.bottomnew {
+  font-family: Verdana;
+  font-size: 12px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
